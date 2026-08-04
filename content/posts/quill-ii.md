@@ -1,0 +1,149 @@
+---
+title: "QUILL"
+date: 2024-07-07 15:44:34
+status: publish
+category: quantum-quill
+image: https://thequantumvoyager.home.blog/wp-content/uploads/2024/06/designer-6.png?w=1024
+---
+
+<h6 class="wp-block-heading has-background" style="background-color:#0b6978;font-size:1.6rem">REALM OF Science & TECH</h6>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<p class="has-tertiary-background-color has-background">Welcome to <strong>Realm of Science & Tech</strong>, transcending the boundaries of the known and ventures into the unexplored territories of scientific discovery and one-stop destination for the latest and greatest in technology. I aim to keep you updated on the ever-evolving landscape of technology and we try to unravel the mysteries of the universe, we traverse the ever evolving landscape of technology from the latest ground breaking science to every aspect of sci & tech. In each issue, we'll dive into the most exciting science & tech news, and offer insights into the future.</p>
+
+
+
+<p class="has-tertiary-background-color has-background">Whether you're a science nerd or a tech enthusiast, a professional in the field, or just curious about the world of science & technology, there's something for everyone. So sit back, relax, and let me guide you through the fascinating world of technology.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<h2 class="wp-block-heading has-background-color has-text-color has-background has-link-color" style="background-color:#3a4343;font-size:1.3rem">Cancer might be reversible-New study shows</h2>
+
+
+
+<p class="has-text-align-left">Cancer - a complex and formidable disease ravaging DNA based life forms since time unknown. There are no definitive cures for every types of cancers amidst the development of sophisticated technology in the 21st century. But now, according to a latest paper published in the journal "Nature" the research team believes that cancer can be reversed (or) at least some forms of cancer.</p>
+
+
+
+<p>But before we dwell into the details of this, let us first get the basics of how a normal cell turn into cancerous  cell. The classical outlying theory is DNA based mutation. This mutation of the genetic material might be caused due to ageing/ environmental conditions vis. exposure to UV or smoking etc. Most of these mutation causes cell death and have no consequence. However, a few mutations favor cell survival leading to them becoming immortal. This leads to uncontrollable growth or duplication of the cell that is cancerous. This theory has been substantiated by experimental evidence. This theory play a vital role in DNA mutations that are irreversible and often found difficult for drugs to target.  The ability to kill a cancer cell using drugs is limited if caused by genetic mutations. There are other theories on how cancer develops as well. </p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img src="https://thequantumvoyager.home.blog/wp-content/uploads/2024/06/designer-6.png?w=1024" alt="" class="wp-image-184" style="width:423px;height:auto" /></figure>
+
+
+
+<p>Amongst these one of the new ones include causes of Cancer due to epigenetic changes. Now, genetics & epigenetics might sound similar, but they are completely different process that leads to altercation of our base material-The DNA. To clarify this difference-let us consider a example: Imagine the DNA as a book the words & sentences are the information (genes) that is present in our DNA for transcription (metaphorically of course). A genetic mutation is when u redact some of the sentences in the book using a permanent marker thereby, we loose that information forever. Wherein if we do other changes, like underline or cross out certain sentences using a pencil that can be erased later would be identical to a epigenetic marks. This provides an idea on how an epigenetic changes in the DNA are reversible. This theory has been tested out using<span style="text-decoration: underline"> <em>Drosophila Melanogaster</em></span> aka. fruit flies that shares 75% of the genes associated with human disease. Epigenetic marks are essential for turning genes on and off during development-such as formation of eyes in the womb etc. They also play a vital role in creating a bridge between the external environment and genes, as in they allow animals to adopt the changing of seasons. The cause of cancer due to epigenetic marks were unknown for a long time until the latest study that cancer can arise due to various epigenetic alterations. So, the BIG QUESTION-how does it help in treating cancer? The identification of role played by epigenetic marks in mutations could lead to change in the ways we treat cancer. As the study progresses scientist could develop epigenetic therapies for this deadly disease. These therapies would reprogram the cancer cells by changing the distribution of reversible epigenetic marks. This would allow cells to revert to their normal behavior (more like a Ctrl +z). Certain types of new epigenetic drugs are now available to treat blood cancers & sarcomas in some countries, while others are in clinical trials for common cancers like breast or pancreatic cancer. This new limelight on epigenetic cancers also has implications for cancer detection. Traces of abnormal epigenetic marks are released by cancer cells and they can be found in the blood of cancer patients.</p>
+
+
+
+<p>Epigenetic therapies can also be combined with traditional cancer treatments which might come in effective in many cases. The upcoming research on this field would involve how the epigenetic theory test in other models. This could further lead to more precise treatments. </p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<h2 class="wp-block-heading has-background-color has-text-color has-background has-link-color" style="background-color:#3a4343;font-size:1.3rem">Samsung steps into the realm of Virtual Reality</h2>
+
+
+
+<p>When we hear the name Samsung the first thing that plunders into our mind is their mobile phones, televisions, laptops, refrigerators, air conditioners, washing machines, dishwashers almost every home appliances. Apart from this they also make SSD's, HDD's, Integrated circuits, Processors (Exynos aka Tensor on the Pixel phones), memory chips (DRAM, NAND), OLED panels for almost all mobile phones on the planet, equipment's for network and communication and way more & more than our human minds can imagine. A company that is well known for the above have now plans to venture into the world of AR/ VR. </p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border is-style-default"><img src="https://thequantumvoyager.home.blog/wp-content/uploads/2024/05/designer-4.png" alt="" class="has-border-color wp-image-174" style="border-color:#adcae4;width:400px" /><figcaption class="wp-element-caption"><span style="text-decoration: underline"><em>Image rendered using AI and does not represent the actual AR headset by Samsung</em></span></figcaption></figure>
+
+
+
+<p>There has been ups and downs in the VR headset markets for the past ten years. Most regular peoples have never been curious about these piece of tech, but it has been a  dream for tech enthusiasts all over the world. This has now been changing due to VR headsets like Meta Quest & Apple's Vision pro headset. From Samsung's point of view they do not want to miss this opportunity and will dwell into the world of  VR/AR by their product name <strong>SAMSUNG XR</strong>. The XR is rumored to be up-coming with high-end specs and will be a combination of Mixed Reality, Virtual Reality & Augmented Reality and would be a direct competition of Apple Vision Pro.                                                                                           Rumors suggest that Sammy will be partnering with Google and Qualcomm for devise's software and hardware needs. Most of the details are yet to be leaked but it is anticipated that the XR will run on the XR plus Gen 2 chipset and will include a 4.3k per eye resolution with a 90Hz refresh rate and will support 12 concurrent cameras. Its also confirmed that Samsung is planning to bring an Android version into these headset with the support of Google and the OS is going to be named as Android XR and will offer capabilities like the current Meta Horizon OS on the Quest. The price of the headset would go up to a $1000, but however the exact numbers. still remain a myth.                                   Considering the wide array of ecosystem of the Samsung the limitations of these headsets are intangible. All we have to do is sit back relax and wait..                                                                                                       </p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<h2 class="wp-block-heading has-background-color has-text-color has-background has-link-color" style="background-color:#3a4343;font-size:1.3rem">Ecstasy for PTSD treatment?</h2>
+
+
+
+<p>Post Traumatic Stress Disorder is a sapping mental health condition that affect a person post experiencing or is threatened by traumatic events such as near-death situations, combat or sexual assault. Though this disorder affects about 3.9% of the world's population every year (source: WHO) the pharmaceutical treatment options available is limited to two (or) three antidepressants that almost requires 3 months of dosing to take effect and their response rates are fairly uneven.</p>
+
+
+
+<p>It is almost surprising to find that such a disorder almost affecting millions of people worldwide does not have a proper treatment. This is exactly when California based Lykos Therapeutics has submitted a request for regulatory approval on two clinical studies-each enrolling about 100 people, where they have evaluated MDMA [3, 4-methylenedioxy-N-methamphetamine] a main component in the street drug named-Ecstasy. Along with MDMA, psychological interventions like talk therapy, against a placebo were used in evaluating the potency of MDMA. The studies have been published in <em>Nature Medicine</em> and has been concluded that MDMA was both safe and highly effective at treating PTSD. The 11-member panel have evaluated and 9 of the members have mentioned that the data provided was not enough to show the treatment was effective and 10 members have concluded that the benefits of using MDMA for treating PTSD does not outweigh the risks. The panel have commented that the efficacy and safety standpoint of the studies provided were premature. MDMA is a Schedule 1 drug under controlled substance act and its approval for medical use would require major paradigm shift. In the briefing document put forth by FDA the major concerns raised was about the double blinded study (neither those being treated nor their health care workers knew the treatment they received versus placebo), but however most people were able to accurately guess what they received that lead to bias and uncertainty into study outcomes. Lykos was also criticized by the FDA for not gathering sufficient side effect data which includes euphoria or elated mood. Providing this information would be informative for an assessment of abuse potential or characterization of anticipated effect of the drug.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img src="https://thequantumvoyager.home.blog/wp-content/uploads/2024/06/oip.jpeg?w=474" alt="" class="wp-image-192" /></figure>
+
+
+
+<p>There were also certain troubling allegations of research impropriety linked to the trials that was revealed in a draft report submitted by Institute for Clinical and Economic review. The allegations also included avoiding patients from entering into long term-follow up study and trials were pulled heavily from existing community of those already interested and involved in use of psychedelics for possible psychological benefits. FDA had commented that they are considering these allegations as they are of serious concern and probe was on-going. If FDA approves the drug for treatment of PTSD, it would be authorized only with subjects being carefully monitored and enrolled in registry so that the side effects could be documented. The approval by the FDA is awaited by mid-August. </p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<h2 class="wp-block-heading has-background-color has-text-color has-background has-link-color" style="background-color:#3a4343;font-size:1.3rem">CMF by Nothing</h2>
+
+
+
+<p>If you are into mobile phones, then you might be aware of the stirs Nothing phones are creating. A company started by one of th co-founder of OnePlus phones- Carl Pei had released their first phone Nothing Phone 1 & then Nothing Phone 2 which was known for its Glyph interface as the company calls it a LED interface. The UK based company also had started a sub-brand called CMF (Color, Material, Finish) aiming at providing quality products at affordable prices. </p>
+
+
+
+<p>The sub-brand CMF has currently 3 products in the markets - CMF watch pro, CMF Bud Pro & a CMF power brick (65W GaN charger). The company now will launch a much awaited CMF Phone 1 by Nothing on July 07, 2024. The phone is expected to create a havoc in mid-range market with its unique design and intuitive performance all at affordable price.  The company aims to target Xiaomi, Redmi, Samsung Motorola that have been ravaging the Indian mid-range smartphone market since the dawn of smartphones. </p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img src="https://thequantumvoyager.home.blog/wp-content/uploads/2024/07/grjmoyexkaayhqz_1720229414614_1720229426074.webp?w=600" alt="" class="wp-image-201" /><figcaption class="wp-element-caption">Source: CMF by Nothing X handle</figcaption></figure>
+
+
+
+<p>The phone is rumored to be powered by the Dimesity 7300 chipset and will feature a 6.67 AMOLED display that will include a 120Hz refresh rate ( it will include a LTPO panel) & HDR 10+ support. However, it is to be noted that the Dimensity 7300 chipset is not a successor to the existing 7200 and it can be considered a marketing gimmick. The Dimesity 7200 has newer ARMv9-A instruction set & a faster 2.8 GHz max clock speed. Moving to the other aspects the phone will reach a peak brightness of 2000 nits & 800 nits during full brightness. The device will also be IP52 rating for splash & dust resistant, secured by a in-display fingerprint sensor. The variants will include 8GB of RAM & will start at 128 GB expandable upto 2TB using external memory. In-terms of software it is rumored to be running the Android 14 with 2 years of OS updates & 3 years of security patch. The price is expected to at 15,999 INR for the 128GB variant and may go upto 17,999 INR. However, I recommend you take these predictions with a pinch of salt as they are just leaks and will be reality on the above said dates. </p>
+
+
+
+<p>Nothing is known for their clean OS setup called as the Nothing OS. Hopeful they do not fill up the CMF phone with bloatware's just like the Chinese counterparts that are in the same price range. </p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<p class="has-tertiary-background-color has-background"><em>Hi there, Thank you very much for checking out the Quill. Like what you see?  If so, please check in every month for Quills - Realm of Science & Tech.</em></p>
+
+
+
+<p class="has-text-align-right">Until Next time <strong>∞ GODSPEED ! </strong></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
