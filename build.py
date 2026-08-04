@@ -176,15 +176,15 @@ def main():
     published = [p for p in posts if p.get('status') == 'publish']
     drafts = [p for p in posts if p.get('status') != 'publish']
     published.sort(key=sort_key, reverse=True)
-    ordered_posts = published + drafts
+    ordered_posts = published  # drafts are excluded from the public site entirely
 
     log_number = {}
     for i, post in enumerate(ordered_posts):
         log_number[post['slug']] = str(len(ordered_posts) - i).zfill(3)
 
-    # ---------- Post pages ----------
+    # ---------- Post pages (published only — drafts are never written) ----------
     (OUT / 'posts').mkdir(exist_ok=True)
-    for post in posts:
+    for post in published:
         status_class = 'status-confirmed' if post['status'] == 'publish' else 'status-draft'
         status_label = 'CONFIRMED' if post['status'] == 'publish' else 'UNCONFIRMED'
         date_str = fmt_date(post.get('date')) or 'DATE UNKNOWN'
