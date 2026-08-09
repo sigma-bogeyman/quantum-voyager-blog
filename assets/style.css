@@ -68,7 +68,7 @@ a:focus-visible, button:focus-visible {
 .brand {
   font-family: var(--mono);
   font-weight: 700;
-  font-size: 1.05rem;
+  font-size: 1.4rem;
   letter-spacing: 0.03em;
   color: var(--ink);
 }
