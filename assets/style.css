@@ -422,3 +422,54 @@ article.content figcaption {
 .featured-body p { font-size: 0.82rem; color: #6B6455; line-height: 1.5; margin: 0 0 12px; }
 .featured-body .read-more { font-family: 'Courier Prime', monospace; font-size: 0.7rem; color: #8A3A2A; text-decoration: none; }
 @media (max-width: 640px) { .featured-inner { grid-template-columns: 1fr; } .featured-img { min-height: 160px; } }
+
+/* ---------- Mobile fixes ---------- */
+@media (max-width: 640px) {
+  .site-header .wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .site-nav {
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    font-size: 0.68rem;
+  }
+  .brand {
+    font-size: 1.2rem;
+  }
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+  .hero p.lede {
+    font-size: 0.92rem;
+  }
+  .article-photo .photo-inner {
+    height: 180px;
+  }
+  .article-header h1 {
+    font-size: 1.4rem;
+  }
+  .featured {
+    padding: 0 16px;
+  }
+  .featured-body h2 {
+    font-size: 0.95rem;
+  }
+  .featured-body p {
+    font-size: 0.78rem;
+  }
+  .article-photo .caption {
+    font-size: 0.6rem;
+    max-width: 90%;
+  }
+  article.content {
+    padding: 8px 18px 80px;
+  }
+  article.content p {
+    font-size: 0.95rem;
+  }
+  article.content h2 {
+    font-size: 1.2rem;
+  }
+}
