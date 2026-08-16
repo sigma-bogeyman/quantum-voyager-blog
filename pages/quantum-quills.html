@@ -19,7 +19,7 @@
 <a href="../pages/uncharted-dimensions-2.html">Scisphere</a>
 <a href="../pages/contact.html">Contact</a>
 
-    <button class="dark-toggle" onclick="toggleDark()">Dark</button></nav>
+    <div class="toggle-wrap"><span class="toggle-label">☀</span><label class="toggle-switch"><input type="checkbox" id="darkToggle" onchange="toggleDark()"><div class="toggle-track"><div class="toggle-knob"></div></div></label><span class="toggle-label">☾</span></div></nav>
   </div>
 </header>
 <div class="article-header">
@@ -106,5 +106,5 @@
     <p>Infinity &amp; Beyond</p>
   </div>
 </footer>
-<script>function toggleDark(){document.body.classList.toggle("dark-mode");localStorage.setItem("dark",document.body.classList.contains("dark-mode"))}if(localStorage.getItem("dark")==="true"){document.body.classList.add("dark-mode")}</script></body>
+<script>function toggleDark(){document.body.classList.toggle("dark-mode");var d=document.body.classList.contains("dark-mode");localStorage.setItem("dark",d);document.getElementById("darkToggle").checked=d}if(localStorage.getItem("dark")==="true"){document.body.classList.add("dark-mode");var t=document.getElementById("darkToggle");if(t)t.checked=true}</script></body>
 </html>
