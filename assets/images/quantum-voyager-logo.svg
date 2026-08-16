@@ -10,22 +10,22 @@
     </radialGradient>
   </defs>
   <g transform="translate(22, 22)">
-    <circle cx="0" cy="0" r="20" fill="none" stroke="#c4783a" stroke-width="0.8" opacity="0.3"/>
-    <circle cx="0" cy="0" r="17" fill="none" stroke="url(#pg)" stroke-width="1.5"/>
-    <circle cx="0" cy="0" r="13" fill="none" stroke="#8A3A2A" stroke-width="0.4" stroke-dasharray="2,4"/>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#c4783a" stroke-width="1" opacity="0.4"/>
+    <circle cx="0" cy="0" r="17" fill="none" stroke="url(#pg)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="13" fill="none" stroke="#8A3A2A" stroke-width="0.6" stroke-dasharray="2,4"/>
     <circle cx="0" cy="0" r="11" fill="url(#ig)"/>
-    <path d="M-9,0 Q-6,-5 -3,0 Q0,5 3,0 Q6,-5 9,0" fill="none" stroke="#c4783a" stroke-width="1.2"/>
-    <path d="M-9,0 Q-6,5 -3,0 Q0,-5 3,0 Q6,5 9,0" fill="none" stroke="#c4783a" stroke-width="0.6" opacity="0.4"/>
-    <circle cx="-7" cy="-3" r="0.8" fill="#F1ECE0" opacity="0.7"/>
-    <circle cx="3" cy="4" r="0.6" fill="#F1ECE0" opacity="0.5"/>
-    <circle cx="7" cy="-2" r="0.7" fill="#c4783a" opacity="0.8"/>
-    <line x1="0" y1="-20" x2="0" y2="-17" stroke="#c4783a" stroke-width="1.2"/>
-    <line x1="20" y1="0" x2="17" y2="0" stroke="#c4783a" stroke-width="0.8"/>
-    <line x1="0" y1="20" x2="0" y2="17" stroke="#c4783a" stroke-width="0.8"/>
-    <line x1="-20" y1="0" x2="-17" y2="0" stroke="#c4783a" stroke-width="0.8"/>
-    <line x1="14" y1="-14" x2="12.5" y2="-12.5" stroke="#c4783a" stroke-width="0.5" opacity="0.4"/>
-    <line x1="14" y1="14" x2="12.5" y2="12.5" stroke="#c4783a" stroke-width="0.5" opacity="0.4"/>
-    <line x1="-14" y1="-14" x2="-12.5" y2="-12.5" stroke="#c4783a" stroke-width="0.5" opacity="0.4"/>
-    <line x1="-14" y1="14" x2="-12.5" y2="12.5" stroke="#c4783a" stroke-width="0.5" opacity="0.4"/>
+    <path d="M-9,0 Q-6,-5 -3,0 Q0,5 3,0 Q6,-5 9,0" fill="none" stroke="#c4783a" stroke-width="1.5"/>
+    <path d="M-9,0 Q-6,5 -3,0 Q0,-5 3,0 Q6,5 9,0" fill="none" stroke="#c4783a" stroke-width="0.8" opacity="0.4"/>
+    <circle cx="-7" cy="-3" r="1" fill="#8A3A2A" opacity="0.8"/>
+    <circle cx="3" cy="4" r="0.7" fill="#8A3A2A" opacity="0.6"/>
+    <circle cx="7" cy="-2" r="0.8" fill="#c4783a" opacity="0.9"/>
+    <line x1="0" y1="-20" x2="0" y2="-17" stroke="#c4783a" stroke-width="1.5"/>
+    <line x1="20" y1="0" x2="17" y2="0" stroke="#c4783a" stroke-width="1"/>
+    <line x1="0" y1="20" x2="0" y2="17" stroke="#c4783a" stroke-width="1"/>
+    <line x1="-20" y1="0" x2="-17" y2="0" stroke="#c4783a" stroke-width="1"/>
+    <line x1="14" y1="-14" x2="12.5" y2="-12.5" stroke="#c4783a" stroke-width="0.6" opacity="0.5"/>
+    <line x1="14" y1="14" x2="12.5" y2="12.5" stroke="#c4783a" stroke-width="0.6" opacity="0.5"/>
+    <line x1="-14" y1="-14" x2="-12.5" y2="-12.5" stroke="#c4783a" stroke-width="0.6" opacity="0.5"/>
+    <line x1="-14" y1="14" x2="-12.5" y2="12.5" stroke="#c4783a" stroke-width="0.6" opacity="0.5"/>
   </g>
 </svg>
