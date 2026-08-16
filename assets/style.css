@@ -592,3 +592,10 @@ article.content ul.styled-list li::before {
   width: 36px;
   height: 36px;
 }
+
+/* Force logo swap */
+img.logo-dark { display: none !important; }
+@media (prefers-color-scheme: dark) {
+  img.logo-dark { display: inline !important; }
+  img.logo-light { display: none !important; }
+}
