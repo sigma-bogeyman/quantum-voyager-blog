@@ -684,9 +684,7 @@ img.logo-dark { display: none !important; }
 }
 .toggle-label {
   font-family: 'Courier Prime', monospace;
-  font-size: 0.65rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-size: 1.2rem;
   color: #8A3A2A;
 }
 .dark-mode .toggle-label { color: #c4783a; }
