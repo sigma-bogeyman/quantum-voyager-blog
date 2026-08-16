@@ -595,7 +595,34 @@ article.content ul.styled-list li::before {
 
 /* Force logo swap */
 img.logo-dark { display: none !important; }
-@media (prefers-color-scheme: dark) {
+.dark-mode {
   img.logo-dark { display: inline !important; }
   img.logo-light { display: none !important; }
+}
+
+
+/* ---------- Dark mode toggle ---------- */
+.dark-toggle {
+  background: none;
+  border: 1.5px solid #8A3A2A;
+  color: #8A3A2A;
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  padding: 5px 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+.dark-toggle:hover {
+  background: #8A3A2A;
+  color: #F1ECE0;
+}
+.dark-mode .dark-toggle {
+  border-color: #c4783a;
+  color: #c4783a;
+}
+.dark-mode .dark-toggle:hover {
+  background: #c4783a;
+  color: #0a0c10;
 }
