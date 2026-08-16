@@ -626,3 +626,52 @@ img.logo-dark { display: none !important; }
   background: #c4783a;
   color: #0a0c10;
 }
+
+/* ---------- Full Dark Mode ---------- */
+.dark-mode { background: #0a0c10; color: #E7E4DA; }
+.dark-mode .site-header { background: rgba(13,15,20,0.95); border-bottom-color: #2a2520; }
+.dark-mode .brand { color: #E7E4DA; }
+.dark-mode .site-nav a { color: #8a8678; }
+.dark-mode .site-nav a:hover { color: #c4783a; }
+.dark-mode .hero::after { border-color: #c4783a; }
+.dark-mode .eyebrow { color: #c4783a; border-color: #c4783a; }
+.dark-mode .hero h1, .dark-mode .article-header h1 { color: #E7E4DA; }
+.dark-mode .hero p.lede { color: #8a8678; }
+.dark-mode .log-heading { color: #8a8678; border-color: #2a2520; }
+.dark-mode .entry { border-bottom-color: #2a2520; }
+.dark-mode .entry:hover { background: rgba(196,120,58,0.04); }
+.dark-mode .entry-body h2 a { color: #E7E4DA; }
+.dark-mode .entry-body h2 a:hover { color: #c4783a; }
+.dark-mode .entry-meta { color: #8a8678; }
+.dark-mode .entry-num { background: rgba(13,15,20,0.85); }
+.dark-mode .status-confirmed { color: #c4783a; border-color: #c4783a; }
+.dark-mode .status-draft { color: #6a6458; border-color: #3a3428; }
+.dark-mode .featured-inner { background: #141620; border-color: #2a2520; }
+.dark-mode .featured-body h2 a { color: #E7E4DA; }
+.dark-mode .featured-body h2 a:hover { color: #c4783a; }
+.dark-mode .featured-body p { color: #8a8678; }
+.dark-mode article.content { background: transparent; border-left-color: #1a1820; border-right-color: #1a1820; }
+.dark-mode article.content p { color: #c8c4b8; }
+.dark-mode article.content h2 { color: #E7E4DA; border-top-color: #2a2520; }
+.dark-mode article.content h3 { color: #E7E4DA; }
+.dark-mode article.content strong { color: #E7E4DA; }
+.dark-mode article.content em { color: #8a8678; }
+.dark-mode article.content a { color: #c4783a; }
+.dark-mode article.content blockquote { border-left-color: #c4783a; background: #141620; color: #8a8678; }
+.dark-mode article.content figure { background: #141620; }
+.dark-mode article.content figcaption { color: #6a6458; }
+.dark-mode .stamp-box { border-color: #c4783a; color: #c4783a; }
+.dark-mode .back-link { color: #c4783a; }
+.dark-mode .site-footer { background: #0a0c10; border-top-color: #2a2520; }
+.dark-mode .site-footer p { color: #6a6458; }
+.dark-mode .evidence-box { background: #141620; border-left-color: #c4783a; }
+.dark-mode .evidence-box li { color: #c8c4b8; }
+.dark-mode .pull-quote { color: #c4783a; border-top-color: #c4783a; border-bottom-color: #c4783a; }
+.dark-mode .dramatic { color: #E7E4DA; border-left-color: #c4783a; }
+.dark-mode .section-break { color: #3a3028; }
+.dark-mode article.content ul.styled-list li { border-bottom-color: #2a2520; }
+.dark-mode .next-part { background: #141620; border-color: #2a2520; }
+.dark-mode .next-part p { color: #8a8678; }
+.dark-mode .article-photo .caption { color: #E7E4DA; background: rgba(0,0,0,0.6); }
+.dark-mode img.logo-dark { display: inline !important; }
+.dark-mode img.logo-light { display: none !important; }
