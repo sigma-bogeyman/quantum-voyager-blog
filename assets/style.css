@@ -581,3 +581,14 @@ article.content ul.styled-list li::before {
   margin: 0;
   line-height: 1.5;
 }
+
+/* ---------- Logo in header ---------- */
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+.brand img.logo-mark {
+  width: 36px;
+  height: 36px;
+}
