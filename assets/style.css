@@ -262,12 +262,13 @@ a:focus-visible, button:focus-visible {
 }
 
 .article-photo {
-  max-width: 780px;
+  max-width: 920px;
   margin: 0 auto 28px;
   padding: 0 24px;
 }
 .article-photo .photo-inner {
-  height: 260px;
+  height: 0;
+  padding-bottom: 45%;
   background-size: cover;
   background-position: center;
   background-color: #8a95a8;
