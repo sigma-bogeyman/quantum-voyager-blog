@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Library of Alexandria &mdash; The Quantum Voyager</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6961342467993484" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><img src="../assets/images/logo-light.png" alt="" class="logo-mark logo-light"><img src="../assets/images/logo-dark.png" alt="" class="logo-mark logo-dark">THE <span>QUANTUM</span> VOYAGER</a>
+    <nav class="site-nav">
+      <a href="../index.html">Home</a>
+      <a href="../pages/tech-tactics.html">Tech-Tactics</a>
+      <a href="../pages/quantum-quills.html">Quantum Quill's</a>
+      <a href="../pages/uncharted-dimensions.html">Uncharted Dimensions</a>
+      <a href="../pages/uncharted-dimensions-2.html">Scisphere</a>
+      <a href="../pages/reverse-engineered.html">Reverse Engineered</a>
+      <a href="../pages/contact.html">Contact</a>
+    <div class="toggle-wrap"><span class="toggle-label">☀</span><label class="toggle-switch"><input type="checkbox" id="darkToggle" onchange="toggleDark()"><div class="toggle-track"><div class="toggle-knob"></div></div></label><span class="toggle-label">☾</span></div></nav>
+  </div>
+</header>
+<div class="article-header">
+  <a class="back-link" href="../index.html">&larr; Back to case log</a>
+  <h1>I Tried to Build a Free Obsidian Sync Setup Across Mac, Android, and iPhone &mdash; Here's What Actually Happened</h1>
+  <div class="article-meta">
+    <span>17 AUG 2026</span>
+    <span class="status-tag status-confirmed">CONFIRMED</span>
+  </div>
+</div>
+
+<div class="article-photo">
+  <div class="photo-inner" style="background-image:url('../assets/images/obsidian-syncthing-cover.png'); background-size:cover; background-position:center;">
+    <div class="tape tl"></div><div class="tape br"></div>
+  </div>
+</div>
+
+<article class="content">
+<div class="stamp-box">REVERSE ENGINEERED</div>
+
+
+<p class="dek">I wanted one Obsidian vault on three devices without paying for another subscription. Syncthing looked like the obvious answer. Then iOS got involved.</p>
+
+<h2>The plan sounded ridiculously simple</h2>
+<p>I use Obsidian because I like the idea that my notes are just files. No proprietary database, no mysterious cloud-only format, no feeling that my notes are trapped inside an app. So when I decided I wanted the same vault on a Mac, an Android phone, and an iPhone, I assumed the solution would be straightforward.</p>
+<p>There were two obvious choices. Pay for Obsidian Sync and let Obsidian handle everything, or find a way to synchronize the underlying files myself.</p>
+<p>I chose the second option.</p>
+<p>That led me to Syncthing.</p>
+<p>On paper, Syncthing is almost exactly what I wanted. It doesn't care whether a file is a Markdown note, an image, a PDF, or something else. It simply keeps folders synchronized between devices. No monthly storage plan. No proprietary cloud vault. Just files moving between machines.</p>
+<p>What I didn't appreciate at first was that <strong>Mac, Android, and iOS do not play by the same filesystem rules.</strong></p>
+
+<h2>Mac was easy. Android was easy. Then came the iPhone.</h2>
+<p>The Mac was the natural starting point because the Obsidian vault already existed there. I added the vault to Syncthing and gave it a folder ID. The Android device was then paired with the Mac and the vault was shared.</p>
+<p>And it worked.</p>
+<p>Folders appeared. Notes appeared. The Android side became the first proof that the basic Syncthing configuration was sound.</p>
+<p>At that point, I thought the iPhone would be a five-minute job.</p>
+<p>It wasn't.</p>
+
+<h2>The iOS filesystem is where the fun begins</h2>
+<p>On desktop operating systems, it is easy to think of a folder as a folder. On iOS, applications operate inside a much more controlled filesystem environment. Obsidian cannot simply wander into another app's storage and declare, “Yep, that's my vault now.”</p>
+<p>So the trick was to give Obsidian a folder it could actually see, while simultaneously making Syncthing use that folder as the local destination for the synchronized vault.</p>
+<p>The workaround was surprisingly elegant once the pieces clicked.</p>
+<p>I created an empty vault in Obsidian on the iPhone and chose to continue without Obsidian Sync. That created an Obsidian-owned folder on the iPhone.</p>
+<p>Then, instead of creating a brand-new Syncthing relationship, I connected the <em>existing</em> synchronized folder to that Obsidian folder.</p>
+<p>In other words, the same Syncthing folder identity that represented the vault on the Mac was mapped to a location Obsidian could access on iOS.</p>
+<pre><code>Mac
+└── Obsidian Vault
+        │
+        │ Syncthing
+        ▼
+iPhone
+└── Obsidian
+    └── Temporary Vault
+            │
+            └── Obsidian sees the files</code></pre>
+<p>That was the breakthrough.</p>
+
+<h2>Then Syncthing showed me files I hadn't actually downloaded</h2>
+<p>This was another little trap.</p>
+<p>Syncthing could show the vault's folders and files on the iPhone, but that didn't automatically mean every item was being kept locally. Some content needed to be explicitly synchronized with the device.</p>
+<p>Once the vault folders were selected for local synchronization, they began appearing inside the Obsidian folder on the iPhone.</p>
+<blockquote><p><strong>Seeing a file in Syncthing isn't necessarily the same thing as having that file stored locally where Obsidian can use it.</strong></p></blockquote>
+
+<h2>The test file that sent me down the wrong path</h2>
+<p>Of course, I needed a test.</p>
+<p>I initially created an RTF file and watched it appear in Syncthing. That proved the file was being transferred, but it wasn't actually a great Obsidian test.</p>
+<p>So I switched tactics.</p>
+<p>I opened the vault in Obsidian on the Mac, went into the inbox folder, and created a real Markdown note:</p>
+<pre><code>Sync Test.md</code></pre>
+<p>I put a simple sentence inside it and waited.</p>
+<p>Then I opened Obsidian on the iPhone.</p>
+<p>There it was.</p>
+<p><strong>Sync Test.</strong></p>
+<p>That was the moment I knew the setup wasn't just theoretically working. The actual Obsidian workflow was working.</p>
+
+<h2>Then, naturally, it disconnected</h2>
+<p>Because apparently the setup wasn't allowed to end on a high note.</p>
+<p>The iPhone eventually showed the Syncthing device as disconnected, while the Android device continued syncing normally.</p>
+<p>That was actually useful diagnostically.</p>
+<p>The Mac vault was fine. The Syncthing folder was fine. Android proved that synchronization itself was working. The problem was isolated to the iPhone connection.</p>
+<p>The usual suspects were checked: the iPhone and Mac were on the same Wi-Fi network, and the iOS app had Local Network permission enabled.</p>
+<p>Eventually the iPhone reconnected.</p>
+<p>Green status.</p>
+<p>Back in business.</p>
+
+<h2>And then came the “extra files” warning</h2>
+<p>Syncthing wasn't finished making me nervous.</p>
+<p>It reported that the vault had extra files on the iPhone. The warning looked dramatic until the list was opened.</p>
+<p>The culprit was an Obsidian workspace conflict file inside <code>.obsidian</code>.</p>
+<p>Not a missing note. Not a broken vault. Not the end of civilization.</p>
+<p>Just an Obsidian-generated workspace conflict file.</p>
+<p>It was removed, the folder returned to a connected state, and the actual Markdown files remained intact.</p>
+<p>This was another useful lesson: <strong>never react to a sync warning before looking at the files it is actually talking about.</strong></p>
+
+<h2>The final test was almost anticlimactic</h2>
+<p>After all that, the final verification was wonderfully boring.</p>
+<p>The iPhone was connected.</p>
+<p>The synchronized folders were present.</p>
+<p>Obsidian on the iPhone could open the vault.</p>
+<p>And the <strong>Sync Test</strong> note appeared exactly where it was supposed to.</p>
+<pre><code>                 Syncthing
+                    │
+          ┌─────────┼─────────┐
+          │         │         │
+          ▼         ▼         ▼
+         Mac      Android   iPhone
+          │         │         │
+      Obsidian   Obsidian  Obsidian
+        Vault      Vault     Vault</code></pre>
+<p>The important part is that Syncthing isn't an Obsidian service. It is simply synchronizing the files that make up the vault.</p>
+
+<h2>So, is this actually better than Obsidian Sync?</h2>
+<p>That depends entirely on what you want.</p>
+<p>Obsidian Sync is the polished answer. It is built specifically for Obsidian and removes most of the setup work. If you want something that just works and you're happy paying for it, there's a strong argument for using it.</p>
+<p>Syncthing is the tinker's answer.</p>
+<p>You configure the devices yourself. You understand where the files live. You deal with connections, folder selection, conflicts, and the quirks of each operating system.</p>
+<p>But in return, there is no Syncthing subscription and no cloud storage quota imposed by Syncthing itself. Your practical storage limit is the free space on your devices.</p>
+<p>That makes it particularly attractive for people who like the philosophy behind Obsidian in the first place: <strong>your notes are files, so why not synchronize the files?</strong></p>
+
+<h2>There is one thing Syncthing absolutely isn't</h2>
+<p>It isn't a backup.</p>
+<p>This distinction is easy to miss.</p>
+<p>If you delete a note and that deletion synchronizes across your devices, you haven't created a backup system. You've created a synchronized deletion.</p>
+<p>For anything important, keep an independent backup as well. Syncthing handles synchronization; your backup strategy handles recovery.</p>
+
+<h2>The setup I'd recommend after going through all of this</h2>
+<ol>
+<li>Keep your existing Obsidian vault on the Mac.</li>
+<li>Add that vault to Syncthing.</li>
+<li>Pair the Android device and share the vault.</li>
+<li>Create an empty Obsidian vault on iOS without enabling Obsidian Sync.</li>
+<li>Use Syncthing's existing-folder approach to map the synchronized vault into the Obsidian-accessible folder on iOS.</li>
+<li>Make sure the vault contents are actually being kept locally on the iPhone.</li>
+<li>Verify the Syncthing device connection.</li>
+<li>Test with a real <code>.md</code> note.</li>
+<li>Test synchronization in both directions.</li>
+<li>Keep a separate backup.</li>
+</ol>
+
+<h2>The verdict</h2>
+<p>Would I recommend this to everyone?</p>
+<p>No.</p>
+<p>If you want zero configuration and don't care about paying for synchronization, Obsidian Sync is the easier answer.</p>
+<p>But if you like owning your files, already have multiple devices, and don't mind spending an evening figuring out why an iPhone insists that a perfectly good folder doesn't exist, Syncthing is an incredibly capable solution.</p>
+<p>And once it works, there is something satisfying about it.</p>
+<p>Open Obsidian on the Mac. Write a note.</p>
+<p>Pick up the Android. It's there.</p>
+<p>Pick up the iPhone. It's there too.</p>
+<p>No import button. No export step. No cloud vault to manage.</p>
+<p>Just a folder of Markdown files quietly moving between devices.</p>
+<p><strong>That's exactly what I wanted in the first place.</strong></p>
+
+<p>The file remains open.</p>
+</article>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 The Quantum Voyager &mdash; case file relayed via GitHub Pages</p>
+    <p>Infinity &amp; Beyond</p>
+  </div>
+</footer>
+<script>function toggleDark(){document.body.classList.toggle("dark-mode");var d=document.body.classList.contains("dark-mode");localStorage.setItem("dark",d);document.getElementById("darkToggle").checked=d}if(localStorage.getItem("dark")==="true"){document.body.classList.add("dark-mode");var t=document.getElementById("darkToggle");if(t)t.checked=true}</script></body>
+</html>
